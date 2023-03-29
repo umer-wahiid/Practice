@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umerw\\source\\repos\\Practice3\\Practice3\\Practice3.csproj": {}
+    "C:\\Users\\umerw\\GitHub\\Practice\\Practice3\\Practice3\\Practice3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umerw\\source\\repos\\Practice3\\Practice3\\Practice3.csproj": {
+    "C:\\Users\\umerw\\GitHub\\Practice\\Practice3\\Practice3\\Practice3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umerw\\source\\repos\\Practice3\\Practice3\\Practice3.csproj",
+        "projectUniqueName": "C:\\Users\\umerw\\GitHub\\Practice\\Practice3\\Practice3\\Practice3.csproj",
         "projectName": "Practice3",
-        "projectPath": "C:\\Users\\umerw\\source\\repos\\Practice3\\Practice3\\Practice3.csproj",
+        "projectPath": "C:\\Users\\umerw\\GitHub\\Practice\\Practice3\\Practice3\\Practice3.csproj",
         "packagesPath": "C:\\Users\\umerw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umerw\\source\\repos\\Practice3\\Practice3\\obj\\",
+        "outputPath": "C:\\Users\\umerw\\GitHub\\Practice\\Practice3\\Practice3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umerw\\AppData\\Roaming\\NuGet\\NuGet.Config",
