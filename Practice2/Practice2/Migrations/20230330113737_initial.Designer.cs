@@ -12,8 +12,8 @@ using Practice2.Models;
 namespace Practice2.Migrations
 {
     [DbContext(typeof(EmployeeDbContext))]
-    [Migration("20230329150937_AddSalary")]
-    partial class AddSalary
+    [Migration("20230330113737_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,29 @@ namespace Practice2.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Practice2.Models.Department", b =>
+                {
+                    b.Property<int>("DId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DId"));
+
+                    b.Property<string>("DName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("DId");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("Departments");
+                });
 
             modelBuilder.Entity("Practice2.Models.Employee", b =>
                 {
@@ -93,6 +116,17 @@ namespace Practice2.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("TblSalary");
+                });
+
+            modelBuilder.Entity("Practice2.Models.Department", b =>
+                {
+                    b.HasOne("Practice2.Models.Employee", "Employees")
+                        .WithMany()
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employees");
                 });
 
             modelBuilder.Entity("Practice2.Models.Salary", b =>

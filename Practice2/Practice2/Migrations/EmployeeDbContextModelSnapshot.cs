@@ -22,6 +22,29 @@ namespace Practice2.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Practice2.Models.Department", b =>
+                {
+                    b.Property<int>("DId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DId"));
+
+                    b.Property<string>("DName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("DId");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("Departments");
+                });
+
             modelBuilder.Entity("Practice2.Models.Employee", b =>
                 {
                     b.Property<int>("EmployeeId")
@@ -90,6 +113,17 @@ namespace Practice2.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("TblSalary");
+                });
+
+            modelBuilder.Entity("Practice2.Models.Department", b =>
+                {
+                    b.HasOne("Practice2.Models.Employee", "Employees")
+                        .WithMany()
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employees");
                 });
 
             modelBuilder.Entity("Practice2.Models.Salary", b =>
