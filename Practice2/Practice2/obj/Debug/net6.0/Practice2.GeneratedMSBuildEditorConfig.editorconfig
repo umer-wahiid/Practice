@@ -5,101 +5,100 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Practice2
 build_property.RootNamespace = Practice2
-build_property.ProjectDir = C:\Users\HP\source\repos\Practice\Practice2\Practice2\
+build_property.ProjectDir = D:\console\Practice\Practice2\Practice2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HP\source\repos\Practice\Practice2\Practice2
+build_property.MSBuildProjectDirectory = D:\console\Practice\Practice2\Practice2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Departments/Create.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Departments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Departments/Delete.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Departments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Departments/Details.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Departments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Departments/Edit.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Departments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Departments/Index.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Departments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Employees/Create.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Employees/Delete.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Employees/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Employees/Details.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Employees/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Employees/Edit.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Employees/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Employees/Index.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Home/Index.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Home/Privacy.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Salaries/Create.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Salaries/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Salaries/Delete.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Salaries/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Salaries/Details.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Salaries/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Salaries/Edit.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Salaries/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Salaries/Index.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Salaries/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Shared/Error.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/_ViewImports.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/_ViewStart.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/Practice/Practice2/Practice2/Views/Shared/_Layout.cshtml]
+[D:/console/Practice/Practice2/Practice2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-499fq97cii
