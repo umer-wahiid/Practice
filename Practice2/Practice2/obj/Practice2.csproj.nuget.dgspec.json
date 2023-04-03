@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\Practice\\Practice2\\Practice2\\Practice2.csproj": {}
+    "D:\\console\\Practice\\Practice2\\Practice2\\Practice2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\Practice\\Practice2\\Practice2\\Practice2.csproj": {
+    "D:\\console\\Practice\\Practice2\\Practice2\\Practice2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Practice\\Practice2\\Practice2\\Practice2.csproj",
+        "projectUniqueName": "D:\\console\\Practice\\Practice2\\Practice2\\Practice2.csproj",
         "projectName": "Practice2",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\Practice\\Practice2\\Practice2\\Practice2.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\Practice\\Practice2\\Practice2\\obj\\",
+        "projectPath": "D:\\console\\Practice\\Practice2\\Practice2\\Practice2.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\console\\Practice\\Practice2\\Practice2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
