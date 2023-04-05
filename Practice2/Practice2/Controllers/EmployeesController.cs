@@ -53,17 +53,25 @@ namespace Practice2.Controllers
         // POST: Employees/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create([Bind("EmployeeId,EName,FName,Email,Qualification,Skills,IsActive")] Employee employee)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _context.Add(employee);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(employee);
+        //}
+
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EmployeeId,EName,FName,Email,Qualification,Skills,IsActive")] Employee employee)
+        public IActionResult Create(Employee e)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(employee);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(employee);
+            _context.Employees.Add(e);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         // GET: Employees/Edit/5
