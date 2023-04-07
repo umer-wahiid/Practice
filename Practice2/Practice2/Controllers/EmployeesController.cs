@@ -19,12 +19,26 @@ namespace Practice2.Controllers
         }
 
         // GET: Employees
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        //{
+        //      return _context.Employees != null ? 
+        //                  View(await _context.Employees.ToListAsync()) :
+        //                  Problem("Entity set 'EmployeeDbContext.Employees'  is null.");
+        //}
+
+        public IActionResult Index(int? id)
         {
-              return _context.Employees != null ? 
-                          View(await _context.Employees.ToListAsync()) :
-                          Problem("Entity set 'EmployeeDbContext.Employees'  is null.");
+            if (id == null)
+            {
+                return View(_context.Employees.ToList());
+            }
+            else
+            {
+                var x = from a in _context.Employees where a.EmployeeId == id select a;
+                return View(x.ToList());
+            }
         }
+
 
         // GET: Employees/Details/5
         public async Task<IActionResult> Details(int? id)
